@@ -40,6 +40,7 @@ Static Modular HTML pages rendered using;
 - try rebuild Gemfile and Gemfile.lock with `jekyll new _path_` if files on the repositories can't run
 
 # Quick start on Github
+- rename `baseurl: /site` in `_config.yml` to your repository's name i.e. `baseurl: /your_repo`
 - [Setup Github Page](https://docs.github.com/en/pages/quickstart)
 
 ## See also

@@ -1,7 +1,8 @@
 # Github Page
 Static Modular HTML pages rendered using;
-- Markdown (Kramdown)
+- Ruby (Jekyll)
 - HTML5
+- CSS3
 - Javascript (es.6 modules)
 
 # Structure/ Boilerplate
@@ -10,6 +11,9 @@ Static Modular HTML pages rendered using;
 ├─ CHANGELOGS.md <br>
 ├─ favicon.ico <br>
 ├─ index.html <br>
+├─ 404.html <br>
+├─ _layouts <br>
+&nbsp;&nbsp;├─ layout1.html <br>
 ├─ modules <br>
 &nbsp;&nbsp;├─ module1.html <br>
 &nbsp;&nbsp;├─ module2.html <br>

@@ -1,5 +1,6 @@
 # Jekyll layout
-markdown layout styling i.e.
+- markdown layout styling
+- use as a <header> loader
 
 **default.html**
 
@@ -25,5 +26,5 @@ markdown layout styling i.e.
 </html>
 ```
 
-## Do
-- `use {{ site.baseurl }}/ and {{ site.url }}/`
+## Jekyll load using
+- `use {{ site.baseurl }}/ and {{ site.url }}/` on **layout** or **.md** page

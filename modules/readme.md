@@ -1,8 +1,23 @@
 # Modules
 html modules using the following structure
 
-~~~
-<div id="template">
-<content>
-</div> <!-- end template -->
-~~~
+```html
+<!-- template -->
+
+<section class="bsb-hero-2 px-3">
+  <div class="container overflow-hidden">
+    <div class="row gy-3 gy-lg-0 align-items-lg-center justify-content-lg-between">
+      <div class="col-12 col-lg-6 order-1 order-lg-0">
+        <h1 class="display-5 fw-bold lh-1 mb-3">Github Pages</h1> 
+        <p class="lead">Some catchy phase here</p>
+        <a href="pages/StartPage/">Start Page</a>
+        </div>
+      <div class="col-12 col-lg-5 text-center">
+        <img class="img-fluid" loading="lazy" src="images/world.svg" alt="world"/>
+        </div>
+      </div> 
+    </div> <!-- end row -->
+  </div> <!-- end container -->
+</section>
+...
+```

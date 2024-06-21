@@ -1,5 +1,5 @@
 # Github Page
-Static Modular HTML pages rendered using;
+Modular Static HTML pages rendered using;
 - Ruby (Jekyll)
 - HTML5
 - CSS3
@@ -29,8 +29,8 @@ Static Modular HTML pages rendered using;
 ├─ pages <br>
 &nbsp;&nbsp;├─ page1  <br>
 &nbsp;&nbsp;&nbsp;&nbsp; ├─ index.html  <br>
-
 ...
+├─ images <br>
 
 # Quick start on Localhost
 - Ensure **Ruby** and **Jekyll** was installed on local machine 

@@ -7,19 +7,35 @@ title: Index
 <div data-include="hero"></div>
 
 <script>
-    // Zepto must be loaded from header to executed footer scripts
-    $(function() {
+    function ready(fn) {
+    if (document.readyState !== 'loading') {
+            fn();
+        } else {
+            document.addEventListener('DOMContentLoaded', fn);
+        }
+    }
+
+    function main() {
         console.log( "Doc ready" );
-        console.log( "V1.4" );
-        // Loaded 1st components using Zepto
-        let includes = $('[data-include]')
-        $.each(includes, function () {
-            let modulesPath = `modules/${$(this).data('include')}.html`
-            // If no CSS selector is given, the complete response text is used instead.
-            // Note that any JavaScript blocks found are only executed in case no selector is given.
-            $(this).load(`${modulesPath}`)
-            console.log( "Modules loaded" );
-        })
-        // execute other js if any
-    });
+        console.log( "V3.1" );
+        let includes = document.querySelectorAll("div[data-include]")
+        includes.forEach(async(div) => { // this el = div
+            // find module
+            let data_name = includes[0].dataset.include
+            let modulesPath = `modules/${data_name}.html` // i.e. modules/hero.html
+
+            // load module
+            let response = await fetch(modulesPath);
+            let m = await response.text();
+            console.log( `${data_name} module loaded` );
+
+            // execute module
+            // must use el.appendchild to prevent css/js broken
+            let node_div = document.createElement('div'); // create temp div-wrapper
+            node_div.innerHTML = m
+            div.appendChild(node_div.children[0])
+        });        
+    }
+    // execute homepage
+    ready(main())
 </script>

@@ -1,6 +1,7 @@
 | Date | Update | details |
 | -- | -- | -- |
 || v3.1 | use vanilla js|
+|| v3.1 | [modules] execute script in module|
 | 21 JUN 2024 | v3.0 | revised module loader |
 | 17 JUN 2024 | v2.0 | added images folder |
 || v1.4 | simplify index.html|

@@ -1,7 +1,8 @@
 | Date | Update | details |
 | -- | -- | -- |
+|| v3.6 | [modules] able to load internal css from module and [modules] able to execute internal css|
 || v3.4 | [modules] able to load internal js from module and [modules] able to execute internal mjs|
-|| v3.3 | [modules] able to load external js from module and [modules] able to execute external js|
+|| v3.3 | [modules] able to load external js from module and [modules] able to execute external mjs|
 || v3.2 | [modules] execute script in module|
 || v3.1 | use vanilla js|
 | 21 JUN 2024 | v3.0 | revised module loader |

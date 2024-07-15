@@ -1,7 +1,9 @@
 | Date | Update | details |
 | -- | -- | -- |
+|| v3.4 | [modules] able to load internal js from module and [modules] able to execute internal mjs|
+|| v3.3 | [modules] able to load external js from module and [modules] able to execute external js|
+|| v3.2 | [modules] execute script in module|
 || v3.1 | use vanilla js|
-|| v3.1 | [modules] execute script in module|
 | 21 JUN 2024 | v3.0 | revised module loader |
 | 17 JUN 2024 | v2.0 | added images folder |
 || v1.4 | simplify index.html|

@@ -3,55 +3,11 @@ layout: default
 title: Index
 ---
 
-<!-- load order depends on module order -->
+<!-- load order depends on modules' order -->
 <div data-include="hero"></div>
 <div data-include="footer"></div>
 
-<script>
-    // sync execute
-    function ready(fn) {
-    if (document.readyState !== 'loading') {
-            fn();
-        } else {
-            document.addEventListener('DOMContentLoaded', fn);
-        }
-    }
-
-    function main() {
-        console.log( "Doc ready" );
-        console.log( "V3.1" );
-
-        let includes = document.querySelectorAll("div[data-include]")
-        includes.forEach(async(div) => { // this el = div
-            // find module
-            let data_name = div.dataset.include;
-            let modulesPath = `modules/${data_name}.html`; // i.e. modules/hero.html
-
-            // load module
-            let response = await fetch(modulesPath);
-            let m_text = await response.text();
-            console.log( `${data_name} module loaded` );
-
-            // execute module
-            // must use el.appendchild to prevent css/js broken
-            let m_div_block = document.createElement('div'); // create temp div-wrapper
-            m_div_block.innerHTML = m_text
-
-            // html
-            let m_html = m_div_block.children[0]
-
-            // script
-            let m_script = m_div_block.querySelector('script')
-            let ex_script = document.createElement('script');
-            ex_script.type = "module"
-            ex_script.defer = true;
-            ex_script.innerHTML = m_script.innerHTML
-
-            // inject
-            div.appendChild(m_html)
-            document.body.appendChild(ex_script)
-        });        
-    }
-    // execute homepage
-    ready(main())
+<script type="module" >
+    import {ready, main} from "./libraries/mjs/core/app.mjs"
+    ready(main)
 </script>

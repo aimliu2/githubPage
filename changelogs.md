@@ -1,6 +1,6 @@
 | Date | Update | details |
 | -- | -- | -- |
-|| v3.6 | [modules] able to load internal css from module and [modules] able to execute internal css|
+|SEP 2024| v3.6 | [modules] able to load internal css from module and [modules] able to execute internal css|
 || v3.4 | [modules] able to load internal js from module and [modules] able to execute internal mjs|
 || v3.3 | [modules] able to load external js from module and [modules] able to execute external mjs|
 || v3.2 | [modules] execute script in module|
@@ -10,7 +10,7 @@
 || v1.4 | simplify index.html|
 || v1.3 | add license and update readme|
 || v1.2 | fixed baseurl and url path when deploying on github|
-| 08 JUN 2024 | v1.0 | added first version with boilerplate |
+| 08 JUN 2024 | v1.0 | added 1st version with boilerplate |
 
 
 

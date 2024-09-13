@@ -1,5 +1,6 @@
 | Date | Update | details |
 | -- | -- | -- |
+|SEP 2024| v3.7 | fixed favicon loaded|
 |SEP 2024| v3.6 | [modules] able to load internal css from module and [modules] able to execute internal css|
 || v3.4 | [modules] able to load internal js from module and [modules] able to execute internal mjs|
 || v3.3 | [modules] able to load external js from module and [modules] able to execute external mjs|

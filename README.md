@@ -3,33 +3,35 @@ Modular Static HTML pages rendered using;
 - Jekyll (Ruby)
 - HTML5
 - CSS3
-- Javascript (es.6+ modules injection)
+- Javascript (es.6+ modules) with script injection
 
 # Structure/ Boilerplate
-├─ _config.yml <br>
-├─ README.md <br>
-├─ CHANGELOGS.md <br>
-├─ favicon.ico <br>
-├─ index.html <br>
-├─ 404.html <br>
-├─ _layouts <br>
-&nbsp;&nbsp;├─ layout1.html <br>
-├─ modules <br>
-&nbsp;&nbsp;├─ module1.html <br>
-&nbsp;&nbsp;├─ module2.html <br>
-&nbsp;&nbsp;├─ modulex.html <br>
+📁─ _config.yml <br>
+📁─ README.md <br>
+📁─ CHANGELOGS.md <br>
+🎃─ favicon.ico <br>
+📁─ index.html <br>
+📁─ 404.html <br>
+📁─ _layouts <br>
+&nbsp;&nbsp;📂─ default.html <br>
+&nbsp;&nbsp;📂─ layout1.html <br>
 ... <br>
-├─ libraries <br>
-&nbsp;&nbsp;├─ css <br>
-&nbsp;&nbsp;├─ js <br>
-&nbsp;&nbsp;├─ mjs <br>
-&nbsp;&nbsp;├─ etc <br>
+📁─ modules <br>
+&nbsp;&nbsp;📂─ module1.html <br>
+&nbsp;&nbsp;📂─ module2.html <br>
+&nbsp;&nbsp;📂─ modulex.html <br>
 ... <br>
-├─ pages <br>
-&nbsp;&nbsp;├─ page1  <br>
-&nbsp;&nbsp;&nbsp;&nbsp; ├─ index.html  <br>
+📁─ libraries <br>
+&nbsp;&nbsp;📂─ css <br>
+&nbsp;&nbsp;📂─ js <br>
+&nbsp;&nbsp;📂─ mjs <br>
+&nbsp;&nbsp;📂─ etc <br>
 ... <br>
-├─ images <br>
+📁─ pages <br>
+&nbsp;&nbsp;📂─ page1  <br>
+&nbsp;&nbsp;&nbsp;&nbsp; 📂─ index.html  <br>
+... <br>
+📁─ images <br>
 
 
 # Quick start on Localhost

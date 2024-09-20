@@ -34,8 +34,8 @@ Modular Static HTML pages rendered using;
 💎─ Gemfile <br>
 💎─ Gemfile.lock <br>
 </> ─ index.html <br>
-🔑─ LICENSE <br>
-</>─ README.md <br>
+🔑 ─ LICENSE <br>
+</> ─ README.md <br>
 
 # Quick start
 - Ensure **Ruby** and **Jekyll** was installed on local machine 

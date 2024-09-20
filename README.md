@@ -7,10 +7,11 @@ Modular Static HTML pages rendered using;
 
 # Structure/ Boilerplate
 📁─ _layouts <br>
-&nbsp;&nbsp;📂─ default.html <br>
-&nbsp;&nbsp;📂─ layout1.html <br>
+&nbsp;&nbsp;</>─ default.html <br>
+&nbsp;&nbsp;</>─ layout1.html <br>
 ... <br>
 📁─ images <br>
+&nbsp;&nbsp;🌁- image.webp <br>
 ... <br>
 📁─ libraries <br>
 &nbsp;&nbsp;📂─ css <br>
@@ -19,14 +20,14 @@ Modular Static HTML pages rendered using;
 &nbsp;&nbsp;📂─ etc <br>
 ... <br>
 📁─ modules <br>
-&nbsp;&nbsp;📂─ module1.html <br>
-&nbsp;&nbsp;📂─ module2.html <br>
-&nbsp;&nbsp;📂─ modulex.html <br>
+&nbsp;&nbsp;</>─ module1.html <br>
+&nbsp;&nbsp;</>─ module2.html <br>
+&nbsp;&nbsp;</>─ modulex.html <br>
 ... <br>
 📁─ pages <br>
 &nbsp;&nbsp;📂─ page1  <br>
-&nbsp;&nbsp;&nbsp;&nbsp; 📂─ index.html  <br>
-</>─ _config.yml <br>
+&nbsp;&nbsp;&nbsp;&nbsp; </>─ index.html  <br>
+📝 ─ _config.yml <br>
 </>─ 404.html <br>
 </>─ CHANGELOGS.md <br>
 🎃─ favicon.ico <br>
@@ -34,7 +35,7 @@ Modular Static HTML pages rendered using;
 💎─ Gemfile.lock <br>
 </> ─ index.html <br>
 🔑─ LICENSE <br>
-📁─ README.md <br>
+</>─ README.md <br>
 
 # Quick start
 - Ensure **Ruby** and **Jekyll** was installed on local machine 
@@ -43,9 +44,9 @@ Modular Static HTML pages rendered using;
 - view page on `http://localhost:4000`
 - try rebuild `Gemfile` and `Gemfile.lock` with if files on the repositories can not run
 
-# Building site
-- **</> ─ index.html** is set as the landing page. We may build one-page site by building modules then insert into **</> ─ index.html**
-- created subpages in **pages** then navigate using relative url i.e. `<a href="pages/StartPage/">Start Page</a>`
+# Editing site
+- **</> ─ index.html** is set as a landing page by default. We may build one-page site by building modules then insert into **</> ─ index.html**
+- created subpages in **pages** then navigate using jekyll space bar and relative url i.e. `<a href="{{ site.baseurl }}/pages/StartPage/">Start Page</a>`
 
 # Configuration on Github
 - rename `baseurl: /site` in `_config.yml` to your repository's name i.e. `baseurl: /your_repo`

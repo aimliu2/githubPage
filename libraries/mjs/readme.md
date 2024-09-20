@@ -1,5 +1,5 @@
 # module js
-ES 6 module following standard coding as following
+ES 6 module coding. Do not for get to add `<script type="module">`
 
 ```js
 // foo.mjs:

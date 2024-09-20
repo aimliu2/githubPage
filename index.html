@@ -4,10 +4,14 @@ title: Index
 ---
 
 <!-- load order depends on modules' order -->
-<div data-include="hero"></div>
-<div data-include="footer"></div>
+<!-- { include_relative modules/test.html %} -->
+{% include_relative modules/hero.html %}
+{% include_relative modules/footer.html %}
 
-<script type="module" >
-    import {ready, main} from "./libraries/mjs/core/app.mjs"
-    ready(main)
+<script type="module">
+    import {ready} from "{{ site.baseurl }}/libraries/mjs/app.mjs"
+    const fn = () => {
+        console.log("V3.8")
+    }
+    ready(fn)
 </script>

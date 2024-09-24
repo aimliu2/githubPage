@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Start Page
 ---
 
 # Markdown Page

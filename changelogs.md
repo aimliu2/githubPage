@@ -1,5 +1,6 @@
 | Date | Update | details |
 | -- | -- | -- |
+| 24 SEP 2024| v3.9 | add blog "Web Activity Time Tracker - CSV Parse"|
 | 20 SEP 2024| v3.8 | use jekyll build-in Liquid Tag instead of JS module parse|
 |SEP 2024| v3.7 | fixed favicon loaded|
 |SEP 2024| v3.6 | [modules] able to load internal css from module and [modules] able to execute internal css|

@@ -8,10 +8,4 @@ title: Index
 {% include_relative modules/hero.html %}
 {% include_relative modules/footer.html %}
 
-<script type="module">
-    import {ready} from "{{ site.baseurl }}/libraries/mjs/app.mjs"
-    const fn = () => {
-        console.log("V3.9")
-    }
-    ready(fn)
-</script>
+<script src="{{ site.baseurl }}/libraries/js/main.js" type="module"></script>

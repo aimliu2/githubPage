@@ -3,7 +3,7 @@ Modular Static HTML pages rendered using;
 - Jekyll (Ruby)
 - HTML5
 - CSS3
-- Javascript (es.6+ modules) with script injection
+- Javascript (ES.6+ modules)
 
 # Structure/ Boilerplate
 📁─ _layouts <br>
@@ -42,11 +42,11 @@ Modular Static HTML pages rendered using;
 - clone this repository into local machine. Make sure you got the same structure as a boilerplate
 - open `terminal`, then start jekyll server using `bundle exec jekyll serve`
 - view page on `http://localhost:4000`
-- try rebuild `Gemfile` and `Gemfile.lock` with if files on the repositories can not run
+- `Gemfile` and `Gemfile.lock` may have to rebuild if the server caould not run
 
 # Editing site
-- **</> ─ index.html** is set as a landing page by default. We may build one-page site by building modules then insert into **</> ─ index.html**
-- created subpages in **pages** then navigate using jekyll space bar and relative url i.e. `<a href="{{ site.baseurl }}/pages/StartPage/">Start Page</a>`
+- **</> ─ index.html** was set as a landing page by default. One-page app may be built on modules, then added into **</> ─ index.html**
+- Created subpages in **pages** or **_post** then navigate using jekyll space bar and relative url i.e. `<a href="{{ site.baseurl }}/pages/StartPage/">Start Page</a>`
 
 # Configuration on Github
 - rename `baseurl: /site` in `_config.yml` to your repository's name i.e. `baseurl: /your_repo`

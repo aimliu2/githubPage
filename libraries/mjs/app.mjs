@@ -1,6 +1,6 @@
 // core function on homepage
 
-export function ready(fn) {
+export function docready(fn) {
     if (document.readyState !== 'loading') {
         console.log( "Doc ready" );
         fn();

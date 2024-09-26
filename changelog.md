@@ -1,5 +1,6 @@
 | Date | Update | details |
 | -- | -- | -- |
+| 24 SEP 2024| | update start page |
 | 24 SEP 2024| v3.9 | add blog "Web Activity Time Tracker - CSV Parse"|
 | 20 SEP 2024| v3.8 | use jekyll build-in Liquid Tag instead of JS module parse|
 |SEP 2024| v3.7 | fixed favicon loaded|

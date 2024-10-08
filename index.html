@@ -3,9 +3,5 @@ layout: default
 title: Index
 ---
 
-<!-- load order depends on modules' order -->
-<!-- { include_relative modules/test.html %} -->
-{% include_relative modules/hero.html %}
-{% include_relative modules/footer.html %}
-
-<script src="{{ site.baseurl }}/libraries/js/main.js" type="module"></script>
+<div id="app"></div>
+<script type="module" src="{% link assets/js/main.js.liquid %}" ></script>

@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Start Page
+title: Markdown Page
 ---
 
-# Markdown Page
-Mixed rendering using Kramdown(Jekyll) and HTML Block
+# Header 1
+Code Markdown Block
 
 ```md
 ---
@@ -12,7 +12,11 @@ layout: default
 title: Start Page
 ---
 ```
-<!-- -------------------------------- HTML --------------------------------- -->
+
+## Header 2
+### header 3
+`see an image of Mona Lisa below`
+
 <img id="image" class="skeleton" width="400" height="600">
 
 <!-- ------------------------------- Script -------------------------------- -->
@@ -52,6 +56,3 @@ animation: shine 1s ease infinite;
     }
 }
 </style>
-
-
-[Back Home]({{site.baseurl}}/)

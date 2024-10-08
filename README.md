@@ -1,5 +1,5 @@
 # Github Page
-Modular Static HTML pages rendered using;
+Static HTML/Markdown pages client-rendered using;
 - Jekyll (Ruby)
 - HTML5
 - CSS3
@@ -64,3 +64,6 @@ Modular Static HTML pages rendered using;
 
 ## Visit an example on 
 [https://aimliu2.github.io/site/](https://aimliu2.github.io/site/)
+
+
+<!-- <a href="{% link pages/StartPage/index.md %}">Start Page : Markdown</a> <br> -->

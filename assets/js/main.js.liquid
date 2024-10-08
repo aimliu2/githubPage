@@ -1,0 +1,26 @@
+---
+permalink: /assets/js/main.js
+---
+
+import { docReady } from "./mjs/app.mjs"
+import {heroRender} from "{% link assets/js/mjs/hero/hero.js.liquid %}"
+import {footRender} from "{% link assets/js/mjs/footer/footer.mjs %}"
+
+let m_arr = ['hero', 'footer']
+
+const fn = () => { console.log("V4.0") }
+
+const construct = (l,r) =>{
+    let l_con = `<div id=${l}></div>`
+    let r_con = `<div id=${r}></div>`
+    return [l_con, r_con].join('\n')
+}
+const render = (arr) => {
+    return arr.reduce(construct)
+}
+
+// execute
+docReady(fn)
+.then(() => {document.querySelector('#app').innerHTML = render(m_arr); return m_arr})
+.then(() => {document.querySelector('#hero').innerHTML = heroRender()})
+.then(() => {document.querySelector('#footer').innerHTML = footRender()})
